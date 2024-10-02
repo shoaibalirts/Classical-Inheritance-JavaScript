@@ -1,6 +1,8 @@
 import Teacher from "./Teacher.js";
 const t1 = new Teacher("Henrick", 1, "meeting");
-console.log(
+const TEACHER_SECTION = document.getElementById("teacherInfo");
+
+TEACHER_SECTION.append(
   t1.teacherName +
     " has an id# " +
     t1.teacherID +
@@ -9,3 +11,7 @@ console.log(
     " and has some extra functions to perform e.g. " +
     t1.teacherExtraOpgave
 );
+
+function getTeacherData() {
+  console.log("hello");
+}
