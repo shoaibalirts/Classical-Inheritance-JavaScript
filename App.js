@@ -17,7 +17,7 @@ let peopleNewArray = people.map((item) => {
 console.log(peopleNewArray);
 
 const TABLE_DYNAMIC_DATA = document.getElementById("dynamicData");
-TABLE_DYNAMIC_DATA.insertAdjacentHTML("afterbegin", peopleNewArray);
+TABLE_DYNAMIC_DATA.insertAdjacentHTML("afterbegin", peopleNewArray.join(""));
 
 // const TEACHER_SECTION = document.getElementById("teacherInfo");
 // const NAME = document.getElementsByName("teacher-name");
