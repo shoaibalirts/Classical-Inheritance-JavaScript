@@ -3,3 +3,11 @@ section {
   border-radius: 5px;
   padding: 5px;
 }
+
+thead {
+  background-color: red;
+}
+th,
+td {
+  padding: 1rem;
+}
