@@ -12,8 +12,8 @@
 <h3>Used in this Project</h3>
 <ul>
 <li>HTML Table element</li>
-<li>String literals to output html dynamic content </li>
-<li>map function of a array of objects</li>
+<li>String literals to output html dynamic content (data stored in every object)</li>
+<li>map function of an array of objects</li>
 <li>join method of an array in order to avoid comma (,) in the output array</li>
 <li>const TABLE_DYNAMIC_DATA = document.getElementById("dynamicData");</li>
 <li>TABLE_DYNAMIC_DATA.insertAdjacentHTML("afterbegin", peopleNewArray.join(""));</li>
